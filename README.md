@@ -35,7 +35,7 @@ Works seamlessly with **Scrypted, Home Assistant, VLC, ffmpeg, and more**.
 Run this on a fresh Raspberry Pi OS (Lite) install:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/4ddict/RTSPPI/main/install_rtspcam.sh -o install_rtspcam.sh && chmod +x install_rtspcam.sh && sudo ./install_rtspcam.sh
+curl -fsSL https://raw.githubusercontent.com/lienardj/RTSPPI/main/install_rtspcam.sh -o install_rtspcam.sh && chmod +x install_rtspcam.sh && sudo ./install_rtspcam.sh
 ```
 
 This will:
@@ -133,9 +133,9 @@ sudo systemctl daemon-reload
 
 ## 👨‍💻 Author
 
-Made with 💻 + ❤️ by [**@4ddict**](https://github.com/4ddict)  
+Made with 💻 + ❤️ by [**@4ddict**](https://github.com/4ddict) , forked by lienardj
 
-Feel free to [open issues](https://github.com/4ddict/RTSPPI/issues) or contribute!
+Feel free to [open issues](https://github.com/lienardj/RTSPPI/issues) or contribute!
 
 ---
 
