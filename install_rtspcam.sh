@@ -159,7 +159,7 @@ install_mediamtx(){
   if [[ "${A}" = "arm64" ]]; then
     URL="https://github.com/bluenviron/mediamtx/releases/download/v1.14.0/mediamtx_v1.14.0_linux_arm64.tar.gz"
   else
-    URL="https://github.com/bluenviron/mediamtx/releases/download/v1.14.0/mediamtx_v1.14.0_linux_armv7.tar.gz"
+    URL="https://github.com/bluenviron/mediamtx/releases/download/v1.14.0/mediamtx_v1.14.0_linux_armv6.tar.gz"
   fi
   echo "Downloading: ${URL}"
   curl -fL --retry 3 -o "${MTX_DIR}/mediamtx.tgz" "${URL}"
